@@ -1,0 +1,101 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    font-family: 'Segoe Print',Papyrus, Brush Script MT, Segoe Script;
+}
+
+textarea{
+    padding: 10px;
+    width: 500px;
+    border: gold;
+    border-radius: 5px;
+
+}
+
+textarea:hover{
+    color: rgb(177, 162, 76);
+}
+
+div{
+    text-align: center;
+    padding-top: 200px;
+}
+
+select{
+    width: 500px;
+}
+
+label{
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px;
+    background-color: darkmagenta;
+    color: black;
+}
+
+button:hover{
+    color: coral;
+}
+button:visited{
+    color: fuchsia;
+}
+ 
+#stop{
+    padding: 10px 55px 10px 55px;
+    font-size: 20px;
+}
+
+#speak{
+    font-size: 20px;
+}
+
+input{
+    padding: 0, 20px, 0, 20px;
+}
+
+p{
+    font-size: 20px;
+    color:brown;
+    font-family: helvetica;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: right;
+}
+
+#rate{
+ color: limegreen;
+}
+#rate:hover{
+    color: turquoise;
+}
+
+#pitch{
+    color: rgb(97, 46, 97);
+}
+#pitch:hover{
+    color: violet;
+}
+
+a:link{
+    color: lightcoral;
+}
+a:hover{
+    color: yellowgreen;
+}
+
+@media screen and (max-width: 1200px){
+    div{
+        width: 100%;
+      
+    }
+    
+}
